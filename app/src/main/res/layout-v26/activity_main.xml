@@ -18,20 +18,20 @@
                 android:layout_width="85dp"
                 android:layout_height="85dp"
                 android:src="@drawable/number"
-                android:layout_marginEnd="15dp"
+                android:layout_marginEnd="15dp" 
                 tools:ignore="ContentDescription"/>
 
         <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginEnd="15dp"
-                android:src="@drawable/number"
+                android:src="@drawable/number" 
                 tools:ignore="ContentDescription"/>
 
         <ImageView
                 android:layout_width="85dp"
                 android:layout_height="85dp"
-                android:src="@drawable/number"
+                android:src="@drawable/number" 
                 tools:ignore="ContentDescription"/>
 
     </LinearLayout>
@@ -47,8 +47,7 @@
             android:hint="@string/write_your_answer"
             android:textColorHint="#C4E2E2E2"
             android:gravity="center"
-            android:textSize="20sp"
-            tools:ignore="Autofill,TextFields"/>
+            android:textSize="20sp" android:autofillHints=""/>
 
     <Button
             android:id="@+id/btnSubmit"
@@ -63,22 +62,5 @@
             android:textAllCaps="false"
             android:textColor="#CCFFFFFF"/>
 
-    <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:textSize="41sp"
-            android:gravity="center"
-            android:textColor="@color/colorCircle"
-            android:text="@string/score"/>
-
-    <TextView
-            android:id="@+id/txtscore"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:textSize="41sp"
-            android:gravity="center"
-            android:textColor="@color/colorCircle"/>
 
 </LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SelectDifficultActivity">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="344dp"
+                android:layout_marginBottom="315dp"
+                android:background="@drawable/style_dif"
+                tools:ignore="ContentDescription"/>
+
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                tools:srcCompat="@drawable/logo"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                tools:ignore="ContentDescription"/>
+
+        <TextView
+                android:id="@+id/txtDif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorCircle"
+                android:layout_marginTop="150dp"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:text="@string/select_difficult"/>
+
+    <Button
+            android:id="@+id/btnEasy"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/style_answer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="174dp"
+            android:hint="@string/easy"
+            android:textColorHint="#C4E2E2E2"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:layout_alignEnd="@+id/txtDif"
+            android:layout_alignStart="@id/txtDif"/>
+
+    <Button
+            android:id="@+id/btnMedium"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/style_answer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="115dp"
+            android:hint="@string/medium"
+            android:textColorHint="#C4E2E2E2"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:layout_alignEnd="@+id/txtDif"
+            android:layout_alignStart="@id/txtDif"/>
+
+    <Button
+            android:id="@+id/btnHard"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/style_answer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="56dp"
+            android:hint="@string/hard"
+            android:textColorHint="#C4E2E2E2"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:layout_alignEnd="@+id/txtDif"
+            android:layout_alignStart="@id/txtDif"/>
+
+</RelativeLayout>

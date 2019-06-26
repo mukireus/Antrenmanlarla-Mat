@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Antrenmanlarla  Mat</string>
+    <string name="app_name">Antrenmanlarla Mat</string>
+    <string name="write_your_answer">Cevabınızı Giriniz</string>
+    <string name="answer">Cevapla</string>
+    <string name="score">Skorunuz</string>
+    <string name="select_difficult">Zorluk Seçiniz</string>
+    <string name="easy">Kolay</string>
+    <string name="hard">Zor</string>
+    <string name="medium">Orta</string>
 </resources>

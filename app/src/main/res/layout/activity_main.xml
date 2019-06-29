@@ -14,25 +14,86 @@
             android:layout_marginTop="100dp"
             android:layout_height="wrap_content">
 
-        <ImageView
-                android:layout_width="85dp"
-                android:layout_height="85dp"
-                android:src="@drawable/number"
-                android:layout_marginEnd="15dp"
-                tools:ignore="ContentDescription"/>
+        <RelativeLayout
+                    android:layout_width="85dp"
+                    android:layout_height="85dp">
 
-        <ImageView
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="85dp"
+                    android:src="@drawable/number"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="ContentDescription"/>
+
+            <TextView
+                    android:id="@+id/txtFirst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:text="15"
+                    android:textSize="30sp"
+                    android:layout_centerHorizontal="true"
+                    tools:ignore="HardcodedText"/>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginEnd="15dp"
-                android:src="@drawable/number"
-                tools:ignore="ContentDescription"/>
+                android:layout_margin="15dp">
 
-        <ImageView
-                android:layout_width="85dp"
-                android:layout_height="85dp"
-                android:src="@drawable/number"
-                tools:ignore="ContentDescription"/>
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="85dp"
+                    android:src="@drawable/number"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="ContentDescription"/>
+
+            <TextView
+                    android:id="@+id/txtOperation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:text="+"
+                    android:textSize="25sp"
+                    android:layout_centerHorizontal="true"
+                    tools:ignore="HardcodedText"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="85dp"
+            android:layout_height="85dp">
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="85dp"
+                    android:src="@drawable/number"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="ContentDescription"/>
+
+            <TextView
+                    android:id="@+id/txtSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:text="15"
+                    android:textSize="30sp"
+                    android:layout_centerHorizontal="true"
+                    tools:ignore="HardcodedText"/>
+
+        </RelativeLayout>
 
     </LinearLayout>
 
@@ -78,6 +139,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:textSize="41sp"
+            android:text=""
             android:gravity="center"
             android:textColor="@color/colorCircle"/>
 

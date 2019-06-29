@@ -8,22 +8,24 @@
         android:orientation="vertical"
         tools:context=".SelectDifficultActivity">
 
-        <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="344dp"
-                android:layout_marginBottom="315dp"
-                android:background="@drawable/style_dif"
-                tools:ignore="ContentDescription"/>
+    <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="match_parent"
+            android:layout_height="344dp"
+            android:layout_marginBottom="315dp"
+            android:background="@drawable/style_dif"
+            tools:ignore="ContentDescription"/>
 
-        <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                tools:srcCompat="@drawable/logo"
-                android:layout_marginTop="30dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                tools:ignore="ContentDescription"/>
+    <ImageView
+            android:layout_width="81dp"
+            android:layout_height="87dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/logo"
+            android:layout_marginTop="113dp"
+            android:layout_marginBottom="144dp"
+            tools:ignore="ContentDescription"
+            android:layout_alignBottom="@+id/imgBack"
+            android:layout_alignTop="@+id/imgBack"/>
 
         <TextView
                 android:id="@+id/txtDif"
@@ -33,7 +35,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:textColor="@color/colorCircle"
-                android:layout_marginTop="150dp"
+                android:layout_marginTop="200dp"
                 android:textSize="35sp"
                 android:gravity="center"
                 android:text="@string/select_difficult"/>

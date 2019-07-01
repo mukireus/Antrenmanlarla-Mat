@@ -100,7 +100,7 @@
 
     <EditText
             android:id="@+id/edtAnswer"
-            android:layout_width="270dp"
+            android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_marginTop="100dp"
             android:layout_gravity="center"
@@ -109,11 +109,12 @@
             android:textColorHint="#C4E2E2E2"
             android:gravity="center"
             android:textSize="20sp"
+            android:inputType="number"
             tools:ignore="Autofill,TextFields"/>
 
     <Button
             android:id="@+id/btnSubmit"
-            android:layout_width="270dp"
+            android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
@@ -139,6 +140,25 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:textSize="41sp"
+            android:text=""
+            android:gravity="center"
+            android:textColor="@color/colorCircle"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:textColor="@color/colorCircle"
+            android:text="En yüksek skorunuz"/>
+
+    <TextView
+            android:id="@+id/txtHighScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="30sp"
             android:text=""
             android:gravity="center"
             android:textColor="@color/colorCircle"/>

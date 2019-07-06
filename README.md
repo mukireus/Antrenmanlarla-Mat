@@ -1,6 +1,8 @@
 # Antrenmanlarla-Mat
 Quiz application
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mukireus_Antrenmanlarla-Mat&metric=alert_status)](https://sonarcloud.io/dashboard?id=mukireus_Antrenmanlarla-Mat)
+
 ## Installation
 ```
 $ git clone https://github.com/mukireus/Antrenmanlarla-Mat.git
